@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}
+body{width:1280px;height:640px;background:#faf9f7;color:#21201d;font-family:Inter,-apple-system,"Helvetica Neue",sans-serif;padding:72px 88px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.brand{display:flex;align-items:center;gap:18px;font-size:30px;font-weight:650;letter-spacing:-.01em}
+.brand svg{width:56px;height:56px}
+.brand .repo{color:#6f6d67;font-weight:450}
+h1{font-size:68px;line-height:1.08;letter-spacing:-.03em;font-weight:700;max-width:860px}
+h1 em{font-style:normal;color:#2f6f5f}
+p{font-size:29px;line-height:1.4;color:#6f6d67;max-width:900px;margin-top:26px}
+.foot{display:flex;justify-content:space-between;align-items:center;font-size:25px;color:#6f6d67}
+.chip{font-family:"SF Mono",Menlo,monospace;font-size:24px;background:#fff;border:1.5px solid #e7e4de;border-radius:12px;padding:12px 20px;color:#21201d}
+.chain{position:absolute;right:88px;top:72px;display:flex;flex-direction:column;gap:10px;font-size:17px;letter-spacing:.14em;font-weight:650;color:#2f6f5f;text-align:right}
+.chain span{background:#eaf2ef;border-radius:8px;padding:8px 14px}
+</style>
+<div class="chain"><span>WHY</span><span>WHAT</span><span>WHO · WHERE</span></div>
+<div class="brand"><svg viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#2f6f5f"/><path d="M18 22h28M18 32h20M18 42h14" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><span>orgspec <span class="repo">/ reference MCP server</span></span></div>
+<div><h1>Your organisation's <em>why</em>, served to any AI agent.</h1><p>Reads a context repository for Claude, ChatGPT, Cursor and VS Code. Proposed changes become pull requests a person approves.</p></div>
+<div class="foot"><span class="chip">npx orgspec</span><span>orgspec.org · open source, MIT</span></div>
